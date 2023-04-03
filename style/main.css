@@ -1,0 +1,897 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+html{
+    background-color: #F3E9E8;
+}
+
+.mainhead{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/maxresdefault-DEqX5JALr-transformed\ 1.png);
+    background-size: cover;
+    padding-top: 60px;
+    padding-bottom: 120px;
+    border-radius: 0px 0px 50px 50px;
+}
+
+h1{
+    font-family: 'Encode Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 120px;
+    color: #F3E9E8;
+}
+
+section{
+    width: 100%;
+    max-width: 1590px;
+}
+
+.top-section{
+    display: flex;
+    align-items: center;
+}
+
+h2{
+    font-family: 'Encode Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 80px;
+    color: #33394A;
+}
+
+.mini-line{
+    width: 893px;
+    height: 10px;
+    background-color: #33394A;
+    border-radius: 20px;
+    margin-left: 60px;
+}
+
+.answer-icon{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+h3{
+    font-family: 'Encode Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    color: #33394A;
+}
+
+p{
+    font-family: 'Encode Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    color: #33394A;
+}
+
+.answer-box{
+    margin: 124px auto 0px auto;
+    max-width: 1260px;
+    width: 100%;
+}
+
+.question{
+    margin: 60px auto 43px auto;
+    max-width: 1590px;
+    width: 100%;
+}
+
+.info-heading{
+    margin-left: 30px;
+}
+
+.info-text{
+    margin-bottom: 60px;
+}
+
+.hero{
+    max-width: 1590px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.heading{
+    width: 1105px;
+    /* margin-top: 60px; */
+}
+
+.navbar{
+    display: flex;
+    max-width: 1590px;
+    width: 100%;
+    margin: 0 auto;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.nav-item{
+    font-family: 'Encode Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #F3E9E8;
+    margin-right: 124px;
+}
+
+.nav-item:nth-child(5){
+    margin-right: 0;
+}
+
+.nav-but{
+    background-color: #F3E9E8;
+    padding: 10px 26px;
+    border: none;
+    border-radius: 20px;
+    font-family: 'Encode Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #33394A;
+    cursor: pointer;
+}
+
+.nav-but:hover{
+    background-color: #33394A;
+    color: #E4D0CF;
+}
+
+.nav-item-links-block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.second-one-line{
+    width: 729px;
+}
+
+.popular{
+    margin: 82px auto 43px auto;
+    max-width: 1590px;
+    width: 100%;
+}
+
+.routes-section{
+    margin: 143px auto 165px auto;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    max-width: 1470px;
+    width: 100%;
+}
+
+.plan{
+    display: block;
+    text-align: center;
+}
+
+.plan-text{
+    margin-bottom: 20px;
+}
+
+.plan-section{
+    margin: 0px auto 40px auto;
+    max-width: 1260px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rowplan{
+    display: block;
+}
+
+.plancard{
+    display: block;
+    background: #E4D0CF;
+    border-radius: 30px;
+    padding: 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.bigopenedplancard{
+    display: block;
+    background: #E4D0CF;
+    border-radius: 30px;
+    padding: 30px 30px 10px 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    justify-content: space-between;
+    align-content: center;
+    display: none;
+}
+
+.openedplancard{
+    display: flex;
+    justify-content: space-between;
+}
+
+.addedcontent{
+    display: block;
+}
+
+.arrowdown{
+    cursor: pointer;
+}
+
+.addedtext{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.addbar{
+    margin-top: 10px;
+    background-color: #33394A;
+    height: 3px;
+    border-radius: 30px;
+}
+
+footer{
+    width: 100%;
+    background: #33394A;
+    border-radius: 50px 50px 0px 0px;
+    bottom: 0;
+    text-align: center;
+    padding: 60px 0px 20px 0px;
+}
+
+.footer-info-text{
+    font-family: 'Encode Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #F3E9E8;
+    margin: 10px auto 0px auto;
+    background-color: #33394A;
+}
+
+.links{
+    font-family: 'Encode Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    color: #F3E9E8;
+    max-width: 1000px;
+    width: 100%;
+    margin: 0px auto 142px auto;
+}
+
+.link-list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-link-el{
+    color: #F3E9E8;
+}
+
+nav{
+    padding-top: 20px;
+}
+
+.aboutushead{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/about.png);
+    background-size: cover;
+    border-radius: 0px 0px 50px 50px;
+    height: 2160px;
+}
+
+.aboutext{
+    margin: 0 auto;
+}
+
+.aboutparagraph{
+    font-family: 'Encode Sans';
+    font-style: normal;
+    font-weight: 600;
+    width: 1185px;
+    margin-top: 125px;
+    margin-left: 405px;
+    font-size: 64px;
+    line-height: 150%;
+    text-align: right;
+    color: #F3E9E8;
+}
+
+.aboutmain{
+    margin: 120px auto 60px auto;
+    max-width: 1590px;
+    width: 100%;
+}
+
+.mainleft{
+    max-width: 1295px;
+    width: 100%;
+}
+
+.headingmain{
+    font-family: 'Encode Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 120px;
+    line-height: 150px;
+    color: #33394A;
+}
+
+.aboutparagraphmain{
+    color: #33394A;
+    text-align: right;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 150%;
+    margin-top: 125px;
+    max-width: 1260px;
+    width: 100%;
+    margin: 125px 0px 0px 330px;
+}
+
+.simplehead{
+    background: none;
+}
+
+.blackel{
+    color: #33394A;
+}
+
+.black-but{
+    background-color: #33394A;
+    padding: 10px 26px;
+    border: none;
+    border-radius: 20px;
+    font-family: 'Encode Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #F3E9E8;
+    cursor: pointer;
+}
+
+.black-but:hover{
+    background-color: #E4D0CF;
+    color: #33394A;
+}
+
+.person{
+    max-width: 1590px;
+    width: 100%;
+    margin: 0 auto 140px auto;
+}
+
+.konittiva{
+    font-family: 'Encode Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 80px;
+    line-height: 100px;
+    color: #33394A;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.personalinfo{
+    display: flex;
+}
+
+.rightinf{
+    margin-left: 158px;
+}
+
+.acctext{
+    font-weight: 600;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.acctext:nth-child(5){
+    margin-top: 130px;
+    margin-bottom: 0;
+}
+
+.tripslist{
+    max-width: 1590px;
+    width: 100%;
+    margin: 0 auto 75px auto;
+}
+
+.ticket{
+    background: #E4D0CF;
+    border-radius: 30px;
+    width: 1260px;
+    padding: 85px 60px;
+    margin: 0 auto;
+}
+
+.destination{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.startpoint{
+    text-align: center;
+}
+
+.endpoint{
+    text-align: center;
+}
+
+.city{
+    font-family: 'Encode Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 80px;
+    color: #33394A;
+}
+
+.ticket_text{
+    font-family: 'Encode Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 150%;
+    color: #33394A;
+}
+
+.tripline{
+    display: block;
+}
+
+.line{
+    border: 3px solid #33394A;
+    border-radius: 20px;
+    width: 700px;
+}
+
+.cifri{
+    display: flex;
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.letters{
+    display: flex;
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.center-item-num{
+    margin: 0px 145px 0px 125px;
+}
+
+.first-center-item{
+    margin-left: 5px;
+}
+
+.trainname{
+    font-family: 'Encode Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 80px;
+    color: #33394A;
+}
+
+.traininfo{
+    margin-top: 80px;
+}
+
+.train_text{
+    font-family: 'Encode Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 150%;
+    color: #33394A;
+    margin-bottom: 10px;
+}
+
+.train_text:nth-child(2){
+    margin-top: 20px;
+}
+
+.price{
+    text-align: right;
+    font-family: 'Encode Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 80px;
+    line-height: 100px;
+    color: #33394A;
+    margin-top: 60px;
+}
+
+.signupdiv{
+    display: none;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+.logindiv{
+    display: none;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+.login{
+    background: #E4D0CF;
+    max-width: 1260px;
+    width: 100%;
+    margin: 30px auto 80px auto;
+    padding: 100px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-radius: 30px;
+    display: none;
+}
+
+.signup{
+    background: #E4D0CF;
+    max-width: 1260px;
+    width: 100%;
+    margin: 90px auto 80px auto;
+    padding: 100px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-radius: 30px;
+    display: none;
+}
+
+.signupbtn{
+    color: #E4D0CF;
+    background-color: #33394A;
+    padding: 20px 180px;
+    border-radius: 30px;
+    font-family: 'Encode Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    border: 0;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    max-width: 550px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.closetextone{
+    text-align: right;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.closetexttwo{
+    text-align: right;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.tologin{
+    font-family: 'Encode Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 150%;
+    text-align: center; 
+    color: #33394A;
+    cursor: pointer;
+}
+
+.tosign{
+    font-family: 'Encode Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 150%;
+    text-align: center; 
+    color: #33394A;
+    cursor: pointer;
+}
+
+input{
+    background: none;
+    border: 0;
+    border-bottom: 6px solid #33394A;
+    font-family: 'Encode Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 60px;
+    color: #33394A;
+    max-width: 640px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+input:nth-child(1){
+    margin-top: 100px;
+}
+
+.loginform{
+    max-width: 700px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.bottomsectionlog{
+    display: block;
+    max-width: 560px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.logobtndiv{
+    display: none;
+}
+
+.bigopened{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1590px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.closedlogobtndiv{
+    display: none;
+}
+
+.openednav{
+    display: none;
+}
+
+@media screen and (min-width:375px) and (max-width:768px){
+nav{
+    padding-top: 0;
+}
+
+.bigopened{
+    display: none;
+}
+
+.closedlogobtndiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.openednav{
+    display: none;
+}
+
+.navbar{
+    display: block;
+    max-width: 350px;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.mainhead{
+    padding-bottom: 60px;
+    padding-top: 20px;
+    border-radius: 0px 0px 50px 50px;
+}
+
+.logobtndiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.nav-item{
+    font-family: 'Encode Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #F3E9E8;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 0px;
+}
+
+.nav-item:nth-child(5){
+    display: none;
+}
+
+.nav-item:nth-child(5){
+    margin-bottom: 0;
+}
+
+.bigscreenlogo{
+    display: none;
+}
+
+.logo-item{
+    width: 60px;
+    height: 60px;
+    margin-right: 70px;
+}
+
+.nav-item-links-block{
+    display: block;
+    max-width: 150px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.list-link-el{
+    font-size: 28px;
+}
+
+
+
+h1{
+    font-family: 'Encode Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: #F3E9E8;
+}
+
+h2{
+    font-family: 'Encode Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 25px;
+    color: #33394A;
+}
+
+.heading{
+    width: 350px;
+    margin: 30px auto 0px auto;
+}
+
+.mini-line{
+    display: none;
+}
+
+.routes-section{
+    display: block;
+}
+
+.routeimg{
+    max-width: 350px;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.top-section{
+    max-width: 300px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h2{
+    margin: 0 auto;
+}
+
+.question{
+    margin: 60px auto 43px auto;
+    max-width: 1590px;
+    width: 100%;
+}
+
+.answer-box{
+    margin: 20px auto 0px auto;
+    max-width: 350px;
+    width: 100%;
+}
+
+.info-heading{
+    font-size: 22px;
+}
+
+.answer-icon{
+    max-width: 200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.info-text{
+    text-align: center;
+    margin-top: 10px;
+    max-width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+.answerminiicon{
+    width: 50px;
+    height: 50px;
+}
+
+p{
+    font-family: 'Encode Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #33394A;
+}
+
+.plan-section{
+    display: block;
+    max-width: 350px;
+}
+
+.openedplancard{
+    align-items: center;
+}
+
+.plancardtext{
+    font-size: 22px;
+}
+
+.addedtext{
+    font-size: 22px;
+}
+
+.link-list{
+    display: block;
+    max-width: 320px;
+    font-size: 25px;
+    margin: 0 auto;
+}
+
+.routes-section{
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.popular{
+    margin-top: 62px;
+}
+
+.list-link-el{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.links{
+    margin-bottom: 82px;
+}
+
+.footer-info-text{
+    font-size: 20px;
+}
+
+.login{
+    max-width: 350px;
+}
+
+}
+
+@media screen and (min-width:768px) and (max-width:1200px){
+
+}
